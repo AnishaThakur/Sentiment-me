@@ -1,15 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul  9 00:44:17 2018
-
-@author: hp
-"""
-
-# Natural Language Processing
-
-# Importing the libraries
-import numpy as np
-import matplotlib.pyplot as plt
+# Importing pandas library
 import pandas as pd
 
 # Importing the dataset from the working directory
@@ -78,7 +67,7 @@ y_pred = classifier.predict(X_test)
 
 #Calculating the accuracy
 from sklearn import metrics
-asc = metrics.accuracy_score(y_test, y_pred)
+acs = metrics.accuracy_score(y_test, y_pred)
 
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
